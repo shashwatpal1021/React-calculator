@@ -1,0 +1,42 @@
+.show-btn {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.equal {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.btn:last-child {
+  font-weight: medium;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  background-color: #6dd5ed;
+}
+
+.clr {
+  color: #d66d75;
+}
+
+.exp {
+  color: #06beb6;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  border-color: black;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 10%;
+  border: 10px;
+  user-select: none;
+}
